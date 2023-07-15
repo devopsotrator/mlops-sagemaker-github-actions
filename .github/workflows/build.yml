@@ -6,8 +6,8 @@ on:
     paths:
       - pipelines/**
 env:
-  AWS_REGION: us-east-2
-  SAGEMAKER_PROJECT_NAME: sagemaker-github
+  AWS_REGION: us-central-1
+  SAGEMAKER_PROJECT_NAME: mlops-github-19
 
 jobs:
   Build:
@@ -19,7 +19,7 @@ jobs:
       - name: setup python 3.10
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10' 
+          python-version: '3.10'
 
       - name: Install dependencies
         run: |
