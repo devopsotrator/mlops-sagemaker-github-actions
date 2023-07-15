@@ -6,7 +6,7 @@ on:
     paths:
       - pipelines/**
 env:
-  AWS_REGION: us-central-1
+  AWS_REGION: eu-central-1
   SAGEMAKER_PROJECT_NAME: mlops-github-19
 
 jobs:
