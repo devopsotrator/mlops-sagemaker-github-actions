@@ -7,7 +7,7 @@ on:
       - pipelines/**
 env:
   AWS_REGION: eu-central-1
-  SAGEMAKER_PROJECT_NAME: mlops-github-19
+  SAGEMAKER_PROJECT_NAME: mlops-github-18
 
 jobs:
   Build:
